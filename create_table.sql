@@ -1,0 +1,38 @@
+CREATE TABLE players (
+    playerid VARCHAR(20) PRIMARY KEY,
+    jersey INTEGER,
+    fname VARCHAR(50),
+    sname VARCHAR(50),
+    position CHAR(2),
+    birthday DATE,
+    weight INTEGER,
+    height INTEGER,
+    birthcity VARCHAR(50),
+    birthstate VARCHAR(50)
+);
+
+INSERT INTO players (playerid, jersey, fname, sname, position, birthday, weight, height, birthcity, birthstate) VALUES
+('adamlem', 12, 'Mike', 'Adamle', 'RW', '2001-09-21', 73, 197, 'Stamford', 'CT'),
+('adamles', 17, 'Scott', 'Adamle', 'D', '1999-03-01', 70, 184, 'Columbus', 'OH'),
+('armanova', 31, 'Arkady', 'Armanov', 'LW', '1998-10-25', 71, 197, 'Minsk', 'RU'),
+('boolea', 8, 'Alexi', 'Boole', 'RW', '1997-09-14', 72, 194, 'Kiev', 'UK'),
+('choakd', 11, 'Dominick', 'Choak', 'RW', '1997-02-22', 72, 196, 'Prague', 'CZ'),
+('clobberk', 24, 'Kilroy', 'Clobber', 'D', '2002-06-21', 73, 200, 'Bangor', 'ME'),
+('clubbes', 7, 'Sam', 'Clubbe', 'LW', '1999-07-26', 75, 190, 'Paramus', 'NJ'),
+('finleyp', 14, 'Peter', 'Finley', 'D', '1987-06-08', 76, 194, 'Denver', 'CO'),
+('fiskj', 25, 'Jerke', 'Fisk', 'D', '2001-11-25', 71, 193, 'Helsinki', 'FI'),
+('gruberh', 29, 'Hans', 'Gruber', 'D', '1991-02-11', 70, 175, 'Munich', 'DE'),
+('grunwala', 6, 'Allan', 'Grunwald', 'C', '1990-10-17', 74, 189, 'Buffalo', 'NY'),
+('ivanovv', 4, 'Valerei', 'Ivanovich', 'C', '2004-09-20', 72, 175, 'Moscow', 'RU'),
+('jeffriea', 30, 'Angus', 'Jeffries', 'G', '1995-11-08', 70, 185, 'Springfield', 'MA'),
+('jonesr', 35, 'Robert', 'Jones', 'C', '1997-05-22', 73, 189, 'Hartford', 'CT'),
+('lexourb', 9, 'Bruce', 'Lexour', 'D', '2001-09-05', 75, 198, 'Quincy', 'IL'),
+('lunds', 93, 'Steven', 'Lund', 'D', '1997-05-22', 71, 193, 'St. Paul', 'MN'),
+('maguirea', 34, 'Andre', 'Maguire', 'LW', '1999-12-08', 75, 191, 'Detroit', 'MI'),
+('meyersd', 28, 'Doug', 'Meyers', 'G', '1998-02-11', 70, 195, 'Chicago', 'IL'),
+('olsens', 37, 'Sandish', 'Olsen', 'D', '1999-08-16', 72, 192, 'Stockholm', 'SW'),
+('quivep', 20, 'Pierre', 'Quive', 'LW', '1991-07-19', 71, 197, 'Quebec', 'QU'),
+('springej', 38, 'Junior', 'Springer', 'C', '1995-10-14', 71, 184, 'Toronto', 'ON'),
+('sullivar', 39, 'Russel', 'Sullivan', 'G', '2000-03-08', 70, 186, 'Vancouver', 'BC'),
+('travisj', 19, 'John', 'Travis', 'C', '2003-06-23', 74, 200, 'Boston', 'MA'),
+('zauberz', 22, 'Zeke', 'Zauber', 'RW', '1988-08-31', 74, 203, 'Moosehead', 'MA');
